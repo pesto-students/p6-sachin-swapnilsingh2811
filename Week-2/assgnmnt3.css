@@ -1,0 +1,19 @@
+h1{
+   text-align: center;
+}
+
+h2{
+   text-align: center;
+}
+#div0{
+	display:flex;
+	flex-direction:row;
+      
+	
+}
+#div0>div{
+     width:50%;
+     height:50%;
+     margin:10px;
+    
+}
