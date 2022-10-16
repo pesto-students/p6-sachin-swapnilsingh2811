@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Title of the document</title>
+    <style>
+      .container {
+        width: 
+        height: 
+        position: relative;
+        margin:;
+      }
+      .box {
+        width: 500px;
+        height: 300px;
+        position: absolute;
+        top:50% ;
+        left:50%;
+	  transform:translateX(-50%) translateY(-50%);
+        opacity: 0.7;
+        background:;
+      }
+      .overlay {
+        z-index: 9;
+        
+      }
+h1{
+   text-align: center;
+   position:absolute;
+   top:25%;
+   left:50%;
+   transform:translateX(-50%) translateY(-50%);
+   
+}
+	body{
+		height:500px;
+}
+	#div{ 
+		
+		display:flex;
+		flex-wrap:wrap;
+            justify-content:center;
+		align-items:flex-end;
+		
+		
+		
+}
+#div>div{
+width:100px;
+height:100px;
+}
+	#diva{
+		display:flex;
+		flex-wrap:wrap;
+            justify-content:center;
+		align-items:center;
+            
+		
+		
+		
+}
+#diva>div{
+width:100px;
+height:100px;
+
+}
+.one:hover{
+		
+		transform:rotate(90deg) translate(0,100%);
+		transition-duration:1s;
+}
+.two:hover{
+		
+		transform:rotate(-90deg) translate(0,100%);
+		transition-duration:1s;
+}
+.three:hover{
+		
+		transform:rotate(-90deg) translate(0,-100%);
+		transition-duration:1s;
+}
+.four:hover{
+		
+		transform:rotate(90deg) translate(0,-100%);
+		transition-duration:1s;
+}
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="box"><h1><b>Hii</b></h1></div>
+      <div class="box overlay">
+<div id="div">
+
+<div class="one" style="background-color:red"></div>
+<div class="two" style="background-color:yellow"></div>
+
+</div>
+<div id="diva">
+
+<div class="three" style="background-color:blue"></div>
+<div class="four" style="background-color:green"></div>
+
+</div>
+</div>
+    </div>
+  </body>
+</html>
